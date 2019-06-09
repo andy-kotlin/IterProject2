@@ -1,4 +1,4 @@
-package com.example.iteradmin.kotlin_recyclerview
+package com.example.iteradmin.IterProject2
 
 import android.content.Context
 import android.content.Intent
@@ -8,9 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import android.widget.Toast
 import com.bumptech.glide.Glide
-import java.net.HttpURLConnection
 
 class MyAdapter1(context: Context,data:Array<card>) : RecyclerView.Adapter<MyAdapter1.myviewholder>() {
     private val m1Context: Context

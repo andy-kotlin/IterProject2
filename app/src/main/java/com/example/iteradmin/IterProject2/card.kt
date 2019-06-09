@@ -1,4 +1,4 @@
-package com.example.iteradmin.kotlin_recyclerview
+package com.example.iteradmin.IterProject2
 
 class card(thumbnail:String,title:String) {
     private val thumnail:String
